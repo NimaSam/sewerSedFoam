@@ -66,7 +66,8 @@ int main(int argc, char *argv[])
 #   include "createFaMesh.H" 
 #   include "createFields.H"
 #   include "createFAFields.H"  //Finite area and sediment transport fields
-#   include "readTimeControls.H"
+//#   include "readTimeControls.H"
+#   include "createTimeControls.H"
 #   include "correctPhi.H"
 #   include "CourantNo.H"
 #   include "setInitialDeltaT.H"
