@@ -530,6 +530,8 @@
         pdRefCell,
         pdRefValue
     );
+    mesh.schemesDict().setFluxRequired(pd.name());
+
 
     scalar pRefValue = 0.0;
 

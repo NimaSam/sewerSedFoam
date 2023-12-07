@@ -35,6 +35,7 @@
         );
 
         pcorrEqn.setReference(pdRefCell, pdRefValue);
+	mesh.schemesDict().setFluxRequired(pcorr.name());
         pcorrEqn.solve();
 
         if (nonOrth == nNonOrthCorr)
